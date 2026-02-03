@@ -1,0 +1,24 @@
+.hero-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.section-divider {
+    height: 100px;
+    background: linear-gradient(to bottom right, transparent 49%, white 50%),
+                linear-gradient(to top right, white 49%, transparent 50%);
+    background-size: 100% 50px;
+    background-repeat: no-repeat;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px rgba(0,0,0,0.1);
+}
+
+.gallery-item {
+    transition: 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
